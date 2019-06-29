@@ -1,10 +1,10 @@
 GAME = 1
 function HOME()
   menu = gg.choice({
-    "\226\154\161Speed Hack\226\154\161",
-    "\240\159\164\150AntiBot Speed Slow\240\159\164\150",
-    "\240\159\147\183Camera Up\240\159\147\183",
-    "\240\159\148\154Exit\240\159\148\154"
+    "⚡Speed Hack⚡",
+    "🤖AntiBot Speed Slow🤖",
+    "📷Camera Up📷",
+    "🔚Exit🔚"
   }, Lasttl, "By Game Killer & Podruwnik")
   if menu == 1 then
     sh(K)
@@ -22,11 +22,11 @@ function HOME()
 end
 function sh()
   mmenu = gg.choice({
-    "\226\154\161Speed Hack v1\226\154\161",
-    "\226\154\161Speed Hack v2\226\154\161",
-    "\226\154\161Speed Hack Safe 100%\226\154\161",
-    "\240\159\148\153Back"
-  }, Lasttl, "\226\154\161Speed Hack\226\154\161")
+    "⚡Speed Hack v1⚡",
+    "⚡Speed Hack v2⚡",
+    "⚡Speed Hack Safe 100%⚡",
+    "🔙Back"
+  }, Lasttl, "⚡Speed Hack⚡")
   if mmenu == 1 then
     sphv1(K)
   end
@@ -44,8 +44,8 @@ function camerah()
   smenu = gg.choice({
     "Up",
     "Reset",
-    "\240\159\148\153Back"
-  }, Lasttl, "\240\159\147\183Camera Hack\240\159\147\183")
+    "🔙Back"
+  }, Lasttl, "📷Camera Hack📷")
   if smenu == 1 then
     cameraup(K)
   end
@@ -62,7 +62,7 @@ function sphv1()
   gg.getResults(100000)
   print("Replaced: ", gg.editAll("0.003", gg.TYPE_FLOAT))
   gg.clearResults(true)
-  gg.toast("ACT\196\176VE")
+  gg.toast("ACTİVE")
 end
 function sphv2()
   gg.setRanges(gg.REGION_ANONYMOUS)
@@ -70,7 +70,7 @@ function sphv2()
   gg.getResults(100000)
   print("Replaced: ", gg.editAll("10.99199", gg.TYPE_FLOAT))
   gg.clearResults(true)
-  gg.toast("ACT\196\176VE")
+  gg.toast("ACTİVE")
 end
 function antibotsh()
   gg.setRanges(gg.REGION_ANONYMOUS)
@@ -78,7 +78,7 @@ function antibotsh()
   gg.getResults(100000)
   print("Replaced: ", gg.editAll("1", gg.TYPE_FLOAT))
   gg.clearResults(true)
-  gg.toast("ACT\196\176VE")
+  gg.toast("ACTİVE")
 end
 function speedh100()
   gg.setRanges(gg.REGION_ANONYMOUS)
@@ -86,7 +86,7 @@ function speedh100()
   gg.getResults(100000)
   print("Replaced: ", gg.editAll("10.99199", gg.TYPE_FLOAT))
   gg.clearResults(true)
-  gg.toast("ACT\196\176VE")
+  gg.toast("ACTİVE")
 end
 function cameraup()
   gg.setRanges(gg.REGION_C_ALLOC)
@@ -94,7 +94,7 @@ function cameraup()
   gg.getResults(100000)
   print("Replaced: ", gg.editAll("4539628494229994470", gg.TYPE_QWORD))
   gg.clearResults(true)
-  gg.toast("ACT\196\176VE")
+  gg.toast("ACTİVE")
 end
 function camerareset()
   gg.setRanges(gg.REGION_C_ALLOC)
@@ -102,7 +102,7 @@ function camerareset()
   gg.getResults(100000)
   print("Replaced: ", gg.editAll("4539628494219640832", gg.TYPE_QWORD))
   gg.clearResults(true)
-  gg.toast("ACT\196\176VE")
+  gg.toast("ACTİVE")
 end
 function EXIT()
   os.exit()
